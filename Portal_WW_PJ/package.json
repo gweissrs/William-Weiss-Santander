@@ -1,0 +1,20 @@
+{
+  "name": "william-weiss-landing",
+  "version": "1.0.0",
+  "description": "Landing page institucional — William Weiss, Agente Comercial Santander PJ",
+  "author": "William Weiss",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "lint:css": "npx stylelint assets/css/*.css",
+    "lint:js": "npx eslint assets/js/*.js",
+    "lint": "npm run lint:css && npm run lint:js"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "stylelint": "^15.0.0",
+    "stylelint-config-standard": "^34.0.0",
+    "serve": "^14.0.0"
+  }
+}
